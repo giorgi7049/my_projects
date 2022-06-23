@@ -4,7 +4,7 @@ import time
 import winshell
 from win32com.client import Dispatch
 
-''' ვაცხადებთ Windows 10 გასააქტიურებელი სკრიპტს '''
+''' ვაცხადებთ Windows 10 გასააქტიურებელი სკრიპტს dsa '''
 
 win_act = ['cscript slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX',
            'cscript slmgr.vbs /skms 172.19.160.18:1688',
